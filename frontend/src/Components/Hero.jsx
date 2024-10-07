@@ -22,7 +22,7 @@ const Hero = () => {
                 >
                     Join Us
                 </Link>
-                <button className='font-medium bg-rose-500 p-[10px] text-white w-[150px] rounded-xl mr-9'>Call: 1097</button>
+                {/* <button className='font-medium bg-rose-500 p-[10px] text-white w-[150px] rounded-xl mr-9'>Call: 1097</button> */}
             </div>
         </div >
     )

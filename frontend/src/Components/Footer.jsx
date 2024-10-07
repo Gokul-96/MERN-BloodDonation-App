@@ -39,16 +39,15 @@ const Footer = () => {
                 <div className='w-full md:w-1/3'>
                     <h3 className='text-xl font-semibold'>Contact</h3>
                     <p className='mt-2'>
-                        417, Pantheon Salai, Egmore,
-                        Chennai - 600 008, Tamil Nadu.
+                        41,Stadium Street Erode - 638051, Tamil Nadu.
                     </p>
                     <p className='mt-2'>
-                        044-2819 4917 <br />
-                        044-2819 0467
+                        044-2345 4917 <br />
+                        044-2239 0467
                     </p>
                     <p className='mt-2'>
-                        tansacs.pd@gmail.com<br />
-                        tnsacs@gmail.com
+                        blood.pd@gmail.com<br />
+                        bloodgk@gmail.com
                     </p>
                 </div>
             </div>
