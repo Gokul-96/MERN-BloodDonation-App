@@ -1,16 +1,21 @@
-import mongoose from "mongoose";
-import dotenv from "dotenv"
-dotenv.config();
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
 
-const DB = process.env.DB
+dotenv.config();  // Load the .env file
+
 const dbConnection = async () => {
-    try {
-        await mongoose.connect(DB)
-            .then(() => console.log("DB connection successfull"))
-    } catch (error) {
-        console.log(error);
-        setTimeout(dbConnection, 5000)
+  try {
+    const uri = process.env.MONGODB_URI;
+    if (!uri) {
+      throw new Error('MongoDB URI is not defined in .env file');
     }
-}
+
+    await mongoose.connect(uri);  // No need for deprecated options
+    console.log('MongoDB connected');
+  } catch (error) {
+    console.error('Database connection error:', error.message);
+    process.exit(1);  // Stop the server on error
+  }
+};
 
 export default dbConnection;
