@@ -57,10 +57,10 @@ const Footer = () => {
                 <div className='flex flex-col items-center'>
 
                     <div className='flex space-x-4 mt-3'>
-                        <a href="in.com/in/priyadharshini-thirunavukkarasu-b1b615b4/" target="_blank" rel="noopener noreferrer" className='hover:text-blue-600'>
+                        <a href="https://github.com/Gokul-96" target="_blank" rel="noopener noreferrer" className='hover:text-blue-600'>
                             <FontAwesomeIcon icon={faGithub} size="1x" />
                         </a>
-                        <a href="https://github.com/PriyaBalaDharshini" target="_blank" rel="noopener noreferrer" className='hover:text-blue-600'>
+                        <a href="https://rb.gy/m1glvm" target="_blank" rel="noopener noreferrer" className='hover:text-blue-600'>
                             <FontAwesomeIcon icon={faLinkedin} size="1x" />
                         </a>
                     </div>
