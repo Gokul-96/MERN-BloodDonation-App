@@ -83,6 +83,10 @@ const Login = (e) => {
                                 {user.currentUser ? <Navigate to={"/admin"} /> : ""}
                             </button>
                         </form>
+                        <p>
+  Email: gokulkri@gmail.com
+  Password : password123
+</p>
                         <h2 className='text-center text-blue-600 mt-9 text-[18px] font-semibold cursor-pointer' onClick={handleHome} >Home</h2>
                     </div>
                 </div>
