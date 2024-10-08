@@ -45,7 +45,7 @@ const NewDonor = () => {
                     <label htmlFor="">Name: </label>
                     <input
                         type="text"
-                        placeholder='Priya Bala'
+                        placeholder='Gokul'
                         className={`${cname}`}
                         value={input.name || ""}
                         onChange={handleChange}
@@ -65,7 +65,7 @@ const NewDonor = () => {
                     <label htmlFor="" className='mt-[20px]'>Mobile: </label>
                     <input
                         type="number"
-                        placeholder='9597585393'
+                        placeholder='7200607680'
                         maxLength={10}
                         className={`${cname}`}
                         value={input.mobile || ""}
@@ -96,8 +96,8 @@ const NewDonor = () => {
                     <label htmlFor="" className='mt-[20px]'>Email: </label>
                     <input
                         type="email"
-                        placeholder='priya@gmail.com'
-                        maxLength={20}
+                        placeholder='Gokul@gmail.com'
+                        maxLength={50}
                         className={`${cname}`}
                         value={input.email || ""}
                         onChange={handleChange}

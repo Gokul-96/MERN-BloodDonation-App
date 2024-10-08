@@ -91,7 +91,7 @@ const ProspectPage = () => {
                     </li>
 
                 </ul>
-                <span className='font-semibold  text-[16px] text-red-600'>Do you want to approve Priya to donor list?</span>
+                <span className='font-semibold  text-[16px] text-red-600'>Do you want to approve donor list?</span>
                 <div className='flex flex-row items-center justify-evenly mt-[20px]'>
                     <button
                         className='bg-blue-500 p-[10px] rounded-lg font-medium text-white'
